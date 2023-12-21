@@ -1,4 +1,4 @@
-FROM perl:5.32
+FROM perl:5.32-slim
 
 COPY /etc /etc
 COPY /usr /usr
